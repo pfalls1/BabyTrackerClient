@@ -1,0 +1,11 @@
+<!doctype html>
+<html ng-app="babyTracker">
+<head>
+  <title>Baby Tracker</title>
+
+  <script data-main="/scripts/main.js" src="/scripts/libs/require.js"></script>
+</head>
+<body ng-controller="MainController">
+  <ng-view></ng-view>
+</body>
+</html>
